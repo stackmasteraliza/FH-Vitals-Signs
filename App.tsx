@@ -67,7 +67,7 @@ function App(): React.JSX.Element {
 
       console.log("Start Init SDK")
 	  
-      let error_code = await FHVitals.init("assets", "KLW8:HUHC:7HZT:6P3W:NT52", "setest.faceheart.com", 8090);
+      let error_code = await FHVitals.init("assets", "License_Key", "setest.faceheart.com", 8090);
       
       console.log(`initialize FHVitals successfully, error_code=${error_code}`);
 
